@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class ListScript : MonoBehaviour
@@ -8,7 +9,7 @@ public class ListScript : MonoBehaviour
     public List<int> myList = new List<int>();
     public List<int> myList2 = new List<int>() { 4, 6, 9 };
 
-
+    int[] numbers = new int[5];
 
     // Start is called before the first frame update
     void Start()
@@ -33,5 +34,6 @@ public class ListScript : MonoBehaviour
         myList.Remove(5);
         myList.RemoveAt(2);
         myList.Add(77);
+
     }
 }
