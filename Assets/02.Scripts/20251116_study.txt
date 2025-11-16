@@ -1,0 +1,7 @@
+20251116 학습
+
+- Function6Script.cs (오버로딩)
+- Human.cs / GwangSeub.cs (클래스, 상속)
+- public, private, (생략했을 때 어떻게 보일것인지)
+- Car.cs (BMW.cs) - 둘이 연결되어 있음.
+- 배열 (Array.cs, List.cs)

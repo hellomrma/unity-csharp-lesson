@@ -24,16 +24,16 @@ public class FourthScript : MonoBehaviour
             switch (myFruit)
             {
                 case Fruit.APPLE:
-                    Debug.Log("사과는 맛있어!");
+                    Debug.Log("I love apple!");
                     break;
                 case Fruit.BANANA:
-                    Debug.Log("바나나는 맛있어!");
+                    Debug.Log("I love banana!");
                     break;
                 case Fruit.PEACH:
-                    Debug.Log("복숭아는 맛있어!");
+                    Debug.Log("I love peach!");
                     break;
                 case Fruit.ORANGE:
-                    Debug.Log("오렌지는 맛있어!");
+                    Debug.Log("I love orange!");
                     break;
             }
         }

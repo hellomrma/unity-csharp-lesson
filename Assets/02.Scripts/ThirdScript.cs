@@ -25,21 +25,21 @@ public class ThirdScript : MonoBehaviour
             //hp = hp - 20;
             //if (hp <= 0)
             //{
-            //    Debug.Log("°ÔÀÓ ¿À¹ö!");
+            //    Debug.Log("ê²Œìž„ ì˜¤ë²„!");
             //}
             //else if (hp <= 40)
             //{
-            //    Debug.Log("ÇöÀç Ã¼·ÂÀº :" + hp + "ÀÔ´Ï´Ù.");
-            //    Debug.Log("ºñ»ó!!");
+            //    Debug.Log("í˜„ìž¬ ì²´ë ¥ì€ :" + hp + "ìž…ë‹ˆë‹¤.");
+            //    Debug.Log("ë¹„ìƒ!!");
             //}
             //else if (hp <= 60)
             //{
-            //    Debug.Log("ÇöÀç Ã¼·ÂÀº :" + hp + "ÀÔ´Ï´Ù.");
-            //    Debug.Log("Á¶½ÉÇÏ¼¼¿ä!!");
+            //    Debug.Log("í˜„ìž¬ ì²´ë ¥ì€ :" + hp + "ìž…ë‹ˆë‹¤.");
+            //    Debug.Log("ì¡°ì‹¬í•˜ì„¸ìš”!!");
             //}
             //else
             //{
-            //    Debug.Log("ÇöÀç Ã¼·ÂÀº :" + hp + "ÀÔ´Ï´Ù.");
+            //    Debug.Log("í˜„ìž¬ ì²´ë ¥ì€ :" + hp + "ìž…ë‹ˆë‹¤.");
             //}
 
             hp = hp - 20;
@@ -47,18 +47,18 @@ public class ThirdScript : MonoBehaviour
             switch (hp)
             {
                 case DEAD_HP:
-                    Debug.Log("°ÔÀÓ ¿À¹ö!");
+                    Debug.Log("ê²Œìž„ ì˜¤ë²„!");
                     break;
                 case DANGER_HP:
-                    Debug.Log("ÇöÀç Ã¼·ÂÀº :" + hp + "ÀÔ´Ï´Ù.");
-                    Debug.Log("ºñ»ó!!");
+                    Debug.Log("í˜„ìž¬ ì²´ë ¥ì€ :" + hp + "ìž…ë‹ˆë‹¤.");
+                    Debug.Log("ë¹„ìƒ!!");
                     break;
                 case WARNING_HP:
-                    Debug.Log("ÇöÀç Ã¼·ÂÀº :" + hp + "ÀÔ´Ï´Ù.");
-                    Debug.Log("Á¶½ÉÇÏ¼¼¿ä!!");
+                    Debug.Log("í˜„ìž¬ ì²´ë ¥ì€ :" + hp + "ìž…ë‹ˆë‹¤.");
+                    Debug.Log("ì¡°ì‹¬í•˜ì„¸ìš”!!");
                     break;
                 default:
-                    Debug.Log("±âº» ¸Þ½ÃÁö ÀÔ´Ï´Ù.");
+                    Debug.Log("ê¸°ë³¸ ë©”ì‹œì§€ ìž…ë‹ˆë‹¤.");
                     break;
             }
 

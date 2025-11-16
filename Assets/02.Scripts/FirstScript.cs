@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
-    // 2025.11.2 - º¯¼ö¿Í ÀÚ·áÇü
+    // 2025.11.2 - ë³€ìˆ˜ì™€ ìë£Œí˜•
     //private int lastYear = 2024;
     //public int thisYear = 2025;
 
@@ -16,25 +16,25 @@ public class FirstScript : MonoBehaviour
 
     //void Start()
     //{
-    //    Debug.Log("ÀÌ¹ø ¿¬µµ´Â :" + thisYear + "ÀÔ´Ï´Ù.");
+    //    Debug.Log("ì´ë²ˆ ì—°ë„ëŠ” :" + thisYear + "ì…ë‹ˆë‹¤.");
 
     //    int nextYear = 2026;
-    //    Debug.Log("³»³â ¿¬µµ´Â :" + nextYear + "ÀÔ´Ï´Ù.");
+    //    Debug.Log("ë‚´ë…„ ì—°ë„ëŠ” :" + nextYear + "ì…ë‹ˆë‹¤.");
 
     //    pi = 3.14f;
-    //    Debug.Log("ÆÄÀÌ °ªÀº :" + pi + "ÀÔ´Ï´Ù.");
+    //    Debug.Log("íŒŒì´ ê°’ì€ :" + pi + "ì…ë‹ˆë‹¤.");
 
-    //    Debug.Log("³» ÀÌ¸§Àº :" + myName + "ÀÔ´Ï´Ù.");
+    //    Debug.Log("ë‚´ ì´ë¦„ì€ :" + myName + "ì…ë‹ˆë‹¤.");
 
-    //    Debug.Log("ÇöÀç °ÔÀÓ ¿À¹ö°¡ µÇ¾ú´ÂÁö È®ÀÎÇÒ·Á¸é " + isGameOver + "»óÅÂ¸¦ º¸¸é µË´Ï´Ù.");
+    //    Debug.Log("í˜„ì¬ ê²Œì„ ì˜¤ë²„ê°€ ë˜ì—ˆëŠ”ì§€ í™•ì¸í• ë ¤ë©´ " + isGameOver + "ìƒíƒœë¥¼ ë³´ë©´ ë©ë‹ˆë‹¤.");
 
     //    isGameOver = true;
-    //    Debug.Log("°ÔÀÓ ¿À¹ö »óÅÂ´Â :" + isGameOver + "ÀÔ´Ï´Ù.");
+    //    Debug.Log("ê²Œì„ ì˜¤ë²„ ìƒíƒœëŠ” :" + isGameOver + "ì…ë‹ˆë‹¤.");
     //}
 
     //void Update()
     //{
-    //    Debug.Log("ÀÛ³â ¿¬µµ´Â :" + lastYear + "ÀÔ´Ï´Ù.");
+    //    Debug.Log("ì‘ë…„ ì—°ë„ëŠ” :" + lastYear + "ì…ë‹ˆë‹¤.");
     //}
 
     int hp = 90;
@@ -45,7 +45,7 @@ public class FirstScript : MonoBehaviour
 
         if (hp <= 0)
         {
-            Debug.Log("°ÔÀÓ ¿À¹ö!");
+            Debug.Log("ê²Œì„ ì˜¤ë²„!");
         }
     }
 
