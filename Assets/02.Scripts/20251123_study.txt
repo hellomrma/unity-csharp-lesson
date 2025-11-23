@@ -50,12 +50,7 @@ script1123_03_properties.cs
 4-4. 유니티 함수 실행 순서 (Awake ...)
       https://docs.unity3d.com/kr/2021.3/Manual/ExecutionOrder.html
 
-5. 생성자
 
-5-1 기본 생성자
-5-2 매개 변수가 있는 생성자
-
-
-6. 추가 팁
+5. 추가 팁
 
 Editor > data > resources > scriptTemplates 폴더에 초기 템플릿 코드 수정 가능
