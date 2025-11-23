@@ -23,13 +23,26 @@ public class Weapon
     }
 }
 
-public class Player : MonoBehaviour
+public class script1123_04 : MonoBehaviour
 
 {
-    // Start is called before the first frame update
+
+    public Weapon weapon;
+
+    public script1123_04()
+    {
+        weapon = new Weapon();
+
+    }
+
+    public script1123_04(string weaponName, int weaponDamage)
+    {
+        weapon = new Weapon(weaponName, weaponDamage);
+    }
+
     void Start()
     {
-
+        Debug.Log("Player's weapon: " + weapon.name + ", with damage: " + weapon.damage);
     }
 
 }
