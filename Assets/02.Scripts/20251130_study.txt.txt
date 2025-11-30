@@ -1,6 +1,0 @@
-20251130
-
-- 가상 함수 (virtual, abstrict, override)
-: animal, cat, dog
-: Die, 고블린, 슬라임, 오크
-: Weapon, Laser, UZI
