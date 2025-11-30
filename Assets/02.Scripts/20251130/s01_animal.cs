@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script1130_01_animal : MonoBehaviour
+public class s01_animal : MonoBehaviour
 {
     public string animalName;
 
-    // °¡»ó ÇÔ¼ö
+    // ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½
     public virtual void Speak()
     {
-        Debug.Log("µ¿¹°µéÀº ¸»ÇÏ´Â ¼Ò¸®¸¦ ³½´Ù.");
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Ò¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.");
     }
 }

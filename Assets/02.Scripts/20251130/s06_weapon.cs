@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script1130_06_weapon : MonoBehaviour
+public class s06_weapon : MonoBehaviour
 {
-    // °¡»ó ÇÔ¼ö
+    // ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½
     public virtual void Attack()
     {
         Debug.Log("Weapon Attacks");

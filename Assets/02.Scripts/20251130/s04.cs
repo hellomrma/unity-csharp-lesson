@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script1130_04 : MonoBehaviour
+public class s04 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        script1130_01_animal myDog = new script1130_03_dog();
-        script1130_01_animal myCat = new script1130_02_cat();
+        s01_animal myDog = new s03_dog();
+        s01_animal myCat = new s02_cat();
 
-        myDog.Speak(); // "°­¾ÆÁö´Â ¸Û¸Û~ ¸Û¸Û~"    
-        myCat.Speak(); // "°í¾çÀÌ´Â ¾ß¿Ë~ ¾ß¿Ë~"    
+        myDog.Speak(); // "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¸ï¿½~ ï¿½Û¸ï¿½~"    
+        myCat.Speak(); // "ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ß¿ï¿½~ ï¿½ß¿ï¿½~"    
 
     }
 }

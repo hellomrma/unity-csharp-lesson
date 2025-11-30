@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script1130_03_dog : script1130_01_animal
+public class s03_dog : s01_animal
 {
-    // °¡»ó ÇÔ¼ö ÀçÁ¤ÀÇ
+    // ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public override void Speak()
     {
-        Debug.Log("°­¾ÆÁö´Â ¸Û¸Û~ ¸Û¸Û~");
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¸ï¿½~ ï¿½Û¸ï¿½~");
     }
 }

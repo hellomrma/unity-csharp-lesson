@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script1130_06_weapon_child02 : script1130_06_weapon
+public class s06_weapon_child02 : s06_weapon
 {
     public override void Attack()
     {

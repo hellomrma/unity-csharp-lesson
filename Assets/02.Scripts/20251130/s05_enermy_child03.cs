@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script1130_05_enermy_child03 : script1130_05_enermy
+public class s05_enermy_child03 : s05_enermy
 {
     public override void Die()
     {
-        Debug.Log("¿ÀÅ©°¡ »ç¸ÁÇÏ¿´½À´Ï´Ù.");
+        Debug.Log("ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
     }
 }

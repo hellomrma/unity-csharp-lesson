@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script1130_05_enermy : MonoBehaviour
+public class s05_enermy : MonoBehaviour
 {
     public virtual void Die() { 
-        Debug.Log("ÀûÀÌ Á×¾ú½À´Ï´Ù.");
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ ï¿½×¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
     }
 }

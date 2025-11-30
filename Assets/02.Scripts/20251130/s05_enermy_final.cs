@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class script1130_05_enermy_final : MonoBehaviour
+public class s05_enermy_final : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        script1130_05_enermy enermyGoblin = new script1130_05_enermy_child01();
-        script1130_05_enermy enermySlime = new script1130_05_enermy_child02();
-        script1130_05_enermy enermyOrc = new script1130_05_enermy_child03();
+        s05_enermy enermyGoblin = new s05_enermy_child01();
+        s05_enermy enermySlime = new s05_enermy_child02();
+        s05_enermy enermyOrc = new s05_enermy_child03();
 
-        enermyGoblin.Die(); // "°íºí¸°ÀÌ Á×¾ú½À´Ï´Ù."
-        enermySlime.Die();  // "½½¶óÀÓÀÌ »ç¶óÁ³½À´Ï´Ù."
-        enermyOrc.Die();    // "¿ÀÅ©°¡ »ç¸ÁÇÏ¿´½À´Ï´Ù."
+        enermyGoblin.Die(); // "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½."
+        enermySlime.Die();  // "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½."
+        enermyOrc.Die();    // "ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½."
     }
 }
