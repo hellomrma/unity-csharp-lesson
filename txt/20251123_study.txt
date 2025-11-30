@@ -1,0 +1,56 @@
+20251123 학습
+
+1. 값 형식, 참조 형식
+
+Memory (값 형식 Value type, 참조 형식, Reference Type)
+값 형식 = Stack에 저장되는 방식, 데이터(값)를 직접 저장하는 방식
+참조 형식 = ....
+stack, Heap 개념
+Last in First out
+
+값 형식 = Vector3 구조체
+참조 형식 = GameObject 클래스
+
+- new 키워드
+
+Vector3 코드와 GameObject 코드에서의 new는 차이점이 있음
+
+2. 반복문 (Loop)
+
+script1123_02_loop.cs
+증감 연산자. (++, --)
+복합 대입 연산자 (+=, -=, *=, /=, %=)
+
+while
+for
+
+for 문에서 Array 의 경우 Length 로 아이템의 개수 체크 가능
+List 의 경우 Length 가 아니라 Count 로 개수 체크 가능
+
+
+3. 변수와 프로퍼티 (Fields, Properties)
+
+script1123_03_properties.cs
+
+3-1. 변수 - 내부적으로만 사용
+3-2. 데이터를 외부에서 읽거나 쓴느 동작을 제어해야할 경우
+
+프로퍼터의 용도
+- 프로퍼티의 캡슐화
+- 유효성 검사가 가능
+- 계산된 값 반환 가능
+
+3-3 자동 구현 프로퍼티
+
+4. 클래스의 생성자
+
+4-1. 기본 생성자
+4-2. 매개변수가 있는 생성자
+4-3. 여러 생성자 (Constructor Overloading)
+4-4. 유니티 함수 실행 순서 (Awake ...)
+      https://docs.unity3d.com/kr/2021.3/Manual/ExecutionOrder.html
+
+
+5. 추가 팁
+
+Editor > data > resources > scriptTemplates 폴더에 초기 템플릿 코드 수정 가능
